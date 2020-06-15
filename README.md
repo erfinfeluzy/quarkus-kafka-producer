@@ -15,6 +15,8 @@ Prerequsite tutorial ini adalah:
 ```
 ### Konfigurasi Kafka Producer
 ```properties
+kafka.bootstrap.servers=my-cluster-kafka-brokers:9092
+
 mp.messaging.outgoing.mytopic-publisher.connector=smallrye-kafka
 mp.messaging.outgoing.mytopic-publisher.topic=mytopic
 mp.messaging.outgoing.mytopic-publisher.value.serializer=org.apache.kafka.common.serialization.StringSerializer
