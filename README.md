@@ -67,7 +67,6 @@ drwxr-xr-x  9 erfinfeluzy  staff       288 Jun 15 10:46 ..
 ```bash
 $ docker build -f src/main/docker/Dockerfile.native -t quarkus/kafka-producer:v3 .
 ```
-```
 ### Step 3: Deploy image ke Registry
 kali ini saya menggunakan **Quay.io** sebagai registry, karena memiliki fitur untuk security scan image kita.
 PS: saya menggunakan skopeo untuk mempermudah perpindahan registry
