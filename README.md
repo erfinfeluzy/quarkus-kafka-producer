@@ -66,7 +66,7 @@ drwxr-xr-x  9 erfinfeluzy  staff       288 Jun 15 08:27 .
 drwxr-xr-x  9 erfinfeluzy  staff       288 Jun 15 10:46 ..
 ```
 
-### Step 2: Build aplikasi sebagai native container
+### Step 2: Build aplikasi menjadi container
 ```bash
 $ docker build -f src/main/docker/Dockerfile.native -t quarkus/kafka-producer:v3 .
 ```
