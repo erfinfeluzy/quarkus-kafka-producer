@@ -11,8 +11,11 @@ Prerequsite tutorial ini adalah:
 - Dasar pemrograman Java
 - Untuk build native image diperlukan Docker runtime
 
-
+### Clone Source Code dari Git Saya
 ```
+# git clone https://github.com/erfinfeluzy/quarkus-kafka-producer.git
+```
+
 ### Konfigurasi Kafka Producer
 ```properties
 kafka.bootstrap.servers=my-cluster-kafka-brokers:9092
